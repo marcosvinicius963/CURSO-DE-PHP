@@ -1,0 +1,160 @@
+ * {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+        height: 100vh;
+        margin: 0px;
+        display: grid;
+        grid-template-rows: 120px 1fr 60px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "cabecalho" 
+            "principal" 
+            "rodape"; 
+    }
+
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #1867c0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+
+}
+
+
+.cabecalho > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+
+.cabecalho > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+
+}
+
+
+.principal {
+        grid-area: principal;
+        height: calc(100vh - 180px);
+        background-color: #f0f0f0;
+        padding: 20px;
+}
+
+
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.rodape {
+    grid-area: rodape;
+    background-color: #fff;
+     position: sticky;
+     bottom: 0px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     font-size: 1.2rem;
+     padding-right: 20px;
+     color: #444;
+    
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.modulo > ul > li {
+    padding: 7px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+    
+}
+
+.modulo > ul > li:hover {
+    background-color: #EEE;
+
+}
+
+.modulo.verde { border: 2px solid #4CAF50; }
+.modulo.verde > h3 {background-color: #4CAF50; }
+
+.modulo.vermelho { border: 2px solid #FF0000; }
+.modulo.vermelho > h3 {background-color: #FF0000; }
+
+.modulo.azul { border: 2px solid #0000FF; }
+.modulo.azul > h3 {background-color: #0000FF; }
+
+.modulo.laranja { border: 2px solid #FFA500; }
+.modulo.laranja > h3 {background-color: #FFA500; }
+
+.modulo.amarelo { border: 2px solid #FFFF00; }
+.modulo.amarelo > h3 {background-color: #FFFF00; }
+
+.modulo.marrom { border: 2px solid #800000; }
+.modulo.marrom > h3 {background-color: #800000; }
+
+.modulo.preto { border: 2px solid #000000; }
+.modulo.preto > h3 {background-color: #000000; }
+
+.modulo.turquesa { border: 2px solid #40E0D0; }
+.modulo.turquesa > h3 {background-color: #40E0D0; }
+
+.modulo.rosa { border: 2px solid #FF1493	; }
+.modulo.rosa > h3 {background-color:#FF1493	; } 
