@@ -1,4 +1,4 @@
-<div class="titulo">Varáveis</div>
+<div class="titulo">Básico</div>
 <?php
 $numeroA =13;
 $numeroB =13;

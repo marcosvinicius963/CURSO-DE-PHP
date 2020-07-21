@@ -94,7 +94,7 @@
                     <ul>
                         <li>
                             <a href="exercicios.php?dir=variaveis&file=basico">
-                              Variáveis
+                              Básico
                             </a>
                         </li>
                         <li>
