@@ -69,7 +69,7 @@ body {
 
 .rodape {
     grid-area: rodape;
-    background-color: #fff;
+    background-color:	#20B2AA;
      position: sticky;
      bottom: 0px;
      display: flex;
@@ -77,7 +77,9 @@ body {
      align-items: center;
      font-size: 1.2rem;
      padding-right: 20px;
-     color: #444;
+     color: black;
+    
+     
     
 }
 
@@ -158,3 +160,12 @@ body {
 
 .modulo.rosa { border: 2px solid #FF1493	; }
 .modulo.rosa > h3 {background-color:#FF1493	; } 
+
+p.divisao {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 0px;
+}
